@@ -23,8 +23,29 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AA54CB51239F44E900D99A1F /* adaptec3.aux */ = {isa = PBXFileReference; lastKnownFileType = text; path = adaptec3.aux; sourceTree = "<group>"; };
+		AA54CB52239F44EA00D99A1F /* adaptec3.scl */ = {isa = PBXFileReference; lastKnownFileType = text; path = adaptec3.scl; sourceTree = "<group>"; };
+		AA54CB53239F44EA00D99A1F /* adaptec3.nodes */ = {isa = PBXFileReference; lastKnownFileType = text; path = adaptec3.nodes; sourceTree = "<group>"; };
+		AA54CB54239F44EB00D99A1F /* adaptec3.ntup.pl */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = adaptec3.ntup.pl; sourceTree = "<group>"; };
+		AA54CBD6239F89B000D99A1F /* adaptec1.nodes */ = {isa = PBXFileReference; lastKnownFileType = text; path = adaptec1.nodes; sourceTree = "<group>"; };
+		AA54CBD7239F89B100D99A1F /* adaptec1.aux */ = {isa = PBXFileReference; lastKnownFileType = text; path = adaptec1.aux; sourceTree = "<group>"; };
+		AA54CBD8239F89B200D99A1F /* adaptec1.scl */ = {isa = PBXFileReference; lastKnownFileType = text; path = adaptec1.scl; sourceTree = "<group>"; };
+		AA54CBD9239F89B300D99A1F /* adaptec1.ntup.pl */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = adaptec1.ntup.pl; sourceTree = "<group>"; };
 		AAB3750A238CF8AA008BD81A /* Abacus_1126 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Abacus_1126; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAB3750D238CF8AA008BD81A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AAB37518238D065C008BD81A /* adaptec1.result */ = {isa = PBXFileReference; lastKnownFileType = text; path = adaptec1.result; sourceTree = "<group>"; };
+		AAB6221723A332F3009CC397 /* ibm01-cu85.aux */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ibm01-cu85.aux"; sourceTree = "<group>"; };
+		AAB6221823A332F6009CC397 /* ibm01.nodes */ = {isa = PBXFileReference; lastKnownFileType = text; path = ibm01.nodes; sourceTree = "<group>"; };
+		AAB6221923A332F7009CC397 /* ibm01-cu85.scl */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ibm01-cu85.scl"; sourceTree = "<group>"; };
+		AAB6221A23A332F8009CC397 /* ibm01-cu85.gp.pl */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = "ibm01-cu85.gp.pl"; sourceTree = "<group>"; };
+		AAB6221B23A33304009CC397 /* ibm07.nodes */ = {isa = PBXFileReference; lastKnownFileType = text; path = ibm07.nodes; sourceTree = "<group>"; };
+		AAB6221C23A33305009CC397 /* ibm07-cu90.scl */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ibm07-cu90.scl"; sourceTree = "<group>"; };
+		AAB6221D23A33306009CC397 /* ibm07-cu90.aux */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ibm07-cu90.aux"; sourceTree = "<group>"; };
+		AAB6221E23A33309009CC397 /* ibm07-cu90.gp.pl */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = "ibm07-cu90.gp.pl"; sourceTree = "<group>"; };
+		AAB6221F23A33312009CC397 /* ibm09-cu90.scl */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ibm09-cu90.scl"; sourceTree = "<group>"; };
+		AAB6222023A33314009CC397 /* ibm09-cu90.aux */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ibm09-cu90.aux"; sourceTree = "<group>"; };
+		AAB6222123A33315009CC397 /* ibm09-cu90.gp.pl */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = "ibm09-cu90.gp.pl"; sourceTree = "<group>"; };
+		AAB6222223A33316009CC397 /* ibm09.nodes */ = {isa = PBXFileReference; lastKnownFileType = text; path = ibm09.nodes; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,27 @@
 			isa = PBXGroup;
 			children = (
 				AAB3750D238CF8AA008BD81A /* main.cpp */,
+				AA54CBD7239F89B100D99A1F /* adaptec1.aux */,
+				AA54CBD6239F89B000D99A1F /* adaptec1.nodes */,
+				AA54CBD9239F89B300D99A1F /* adaptec1.ntup.pl */,
+				AA54CBD8239F89B200D99A1F /* adaptec1.scl */,
+				AAB37518238D065C008BD81A /* adaptec1.result */,
+				AA54CB51239F44E900D99A1F /* adaptec3.aux */,
+				AA54CB53239F44EA00D99A1F /* adaptec3.nodes */,
+				AA54CB54239F44EB00D99A1F /* adaptec3.ntup.pl */,
+				AA54CB52239F44EA00D99A1F /* adaptec3.scl */,
+				AAB6221723A332F3009CC397 /* ibm01-cu85.aux */,
+				AAB6221A23A332F8009CC397 /* ibm01-cu85.gp.pl */,
+				AAB6221923A332F7009CC397 /* ibm01-cu85.scl */,
+				AAB6221823A332F6009CC397 /* ibm01.nodes */,
+				AAB6221D23A33306009CC397 /* ibm07-cu90.aux */,
+				AAB6221E23A33309009CC397 /* ibm07-cu90.gp.pl */,
+				AAB6221C23A33305009CC397 /* ibm07-cu90.scl */,
+				AAB6221B23A33304009CC397 /* ibm07.nodes */,
+				AAB6222023A33314009CC397 /* ibm09-cu90.aux */,
+				AAB6222123A33315009CC397 /* ibm09-cu90.gp.pl */,
+				AAB6221F23A33312009CC397 /* ibm09-cu90.scl */,
+				AAB6222223A33316009CC397 /* ibm09.nodes */,
 			);
 			path = Abacus_1126;
 			sourceTree = "<group>";
